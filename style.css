@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
+
+body {
+    font-family: 'Halant', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background: #126631;
+    margin: 0;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+header img {
+    width: 150px;
+    margin-top: 80px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    color: #f7f7f7;
+    padding: 0;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+ul li {
+    padding: 20px;
+}
+
+button {
+    background: #FF5733;
+    padding: 7px 30px;
+    border-radius: 3px;
+    border: none;
+    height: 40px;
+    color: #f7f7f7;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 40px;
+    font-family: 'Halant';
+    
+}
+
+.main-btn {
+    margin-left: 0;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.Title-Section{
+    background-image: url('Images/Page-One-Cover-Image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    background-position-y: -200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 75vh;
+}
+
+h1 {
+    font-size: 60px;
+    color: #f7f7f7;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    line-height: 65px;
+    margin-bottom: -5px;
+    margin-top: 5px;
+}
+
+h2 {
+    color: #f7f7f7;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.Main-Content {
+    background: #126631;
+    color: #f7f7f7;
+}
+
+.content-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.content-intro p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.photo-container img {
+    width: 350px;
+    border-radius: 5px;
+}
+
+.box-one,
+.box-two, 
+.box-three {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+
+h4 {
+    font-size: 19px;
+}
+
+.animal-description {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    height: 500px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 200px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.photo-container-two {
+    background-image: url('Images/Waterfall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+
+.secondary-content {
+    background: #126631;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.secondary-content h3 {
+    margin: 0;
+    color: #f7f7f7;
+    padding-top: 50px;
+}
